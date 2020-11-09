@@ -4,32 +4,41 @@
 }
 
 body {
-    background-color: navy
+    background-color: lightskyblue;
 }
 
 .container {
-    display; flex;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
     margin: 5%;
+
 }
 
-.container-2 {   
-    margin: 5%;   
+.container-2 {  
+    margin: 3%;   
     width: auto;   
-    height: 20px;   
-    background-color: gold; 
+    height: 40px;   
+    background-color: cyan;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }    
 
 .item {     
     display: flex;     
     flex-grow: 1;     
-    height: 80px;
+    height: 100px;
     margin-bottom: 10px;     
     justify-content: center;     
     align-items: center;     
     font-size: 30px;     
     font-family: monospace;     
     background-color: cyan; 
-    border-radius: 100px;       
+    border-radius: 10px;  
+    width: 300px;
+
  }    
  
 a:link {     
@@ -41,11 +50,11 @@ a:active {
 }    
 
 a:hover {     
-    color: gold; 
+    color: lightskyblue; 
 }      
 
 .item + .item {     
-    margin-left: 2%;   
+    margin-left: 0%;   
 }
 
 
