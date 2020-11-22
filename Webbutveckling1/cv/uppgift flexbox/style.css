@@ -13,6 +13,7 @@ body {
     display: flex;
     height: 400px;
     margin: 5%;
+    margin-top: 5%;
 
 }
 
@@ -24,7 +25,67 @@ body {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-}    
+    border-radius: 7px;
+}   
+
+.container-3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+.container-4 {
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-5 {
+    margin-top: 7%;   
+    text-align: center;
+}
+
+.CoC {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Geodash {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Pokemon {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Jetpack {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .item {     
     display: flex;     
